@@ -1,0 +1,30 @@
+{
+ "about": "Phrases that chat models of a given period over-used relative to human writing. Every list here expires: a new model generation drops most of the old phrases and brings its own. Use the lists to find places to look, never as a ban list, and refresh them with `humanize.py lexicon HUMAN AI` on current samples.",
+ "updated": "2026-11-16",
+ "entries": [
+  {
+   "era": "2023-24 models",
+   "source": "Wikipedia 'Signs of AI writing' (GPT-4 era list); HAP-E corpus, GPT-4o vs human academic text (share of documents 0% -> 7-50%)",
+   "phrases": ["delve", "delves", "tapestry", "intricate", "intricacies", "pivotal", "underscore", "underscores", "underscoring", "testament to", "multifaceted", "nuanced understanding", "paramount", "cornerstone", "interplay between", "fostering", "leveraging", "cutting-edge", "in conclusion", "advancements", "the realm of", "evolving landscape", "valuable insights", "crucial role", "pivotal role", "paving the way", "pave the way", "sheds light", "unravel", "holistic", "seamless", "meticulously", "it is worth noting", "it is important to note"]
+  },
+  {
+   "era": "2024 published papers",
+   "source": "This project's corpus: 279 journal papers from 2024 vs 417 from 2018-19, same journals (share of papers 0-2% -> 8-25%)",
+   "phrases": ["aligns with", "align with", "serves as a", "is crucial for", "it is crucial", "emphasizing", "across various", "a notable", "insights into", "by utilizing", "to mitigate", "enhances", "this study aims to", "should focus on", "findings indicate that", "more pronounced", "the challenges of", "showcasing", "showcases"]
+  },
+  {
+   "era": "2026 published papers",
+   "source": "This project's corpus: 238 journal papers from May-November 2026 vs 417 from 2018-19, same journals (share of papers 0-3% -> 9-40%)",
+   "phrases": ["rather than as", "should be interpreted as", "should not be interpreted", "be interpreted as", "should be regarded", "should therefore be", "does not establish", "do not establish", "as evidence of", "several limitations should", "should be acknowledged", "collectively, these", "collectively these", "while preserving", "remains limited", "across multiple", "particularly relevant", "a unified", "may reflect", "the present results", "future work will", "findings support", "generalizability of the", "foundation for", "notably, the", "a more comprehensive"]
+  },
+  {
+   "era": "late-2026 chat models",
+   "source": "This project's corpus: Claude Haiku 5.5 and Sonnet 5.5 writing paper sections from notes vs the human originals (0-1% -> 10-29%); Graphite 'AI tells' study, Sept 2026; Wikipedia mid-2026 list",
+   "phrases": ["taken together", "together, these", "together these", "matters because", "this gap", "is therefore", "are therefore", "may therefore", "offers a", "a practical", "not simply", "rather than merely", "without requiring", "despite this", "lies in", "dependable", "deliberate", "quietly", "prioritize", "these findings"]
+  }
+ ],
+ "human_plain": {
+  "about": "Plain phrases that human papers used far more than current models do (share of 2018-19 papers -> share of 2026 papers or model drafts). A rewrite should not strip these, and may use them where they fit. They are not decorations to sprinkle in.",
+  "phrases": ["in order to", "there is", "there are", "due to", "by using", "i.e.", "e.g.", "etc.", "thus", "hence", "moreover", "furthermore", "in addition", "on the other hand", "for example", "a number of", "compared to", "according to", "based on", "respectively", "very", "quite", "might", "seems", "probably", "was found", "it was", "can be seen", "in the case of", "we can", "we have", "allows us to"]
+ }
+}
